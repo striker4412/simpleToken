@@ -4,7 +4,13 @@ contract SimpleToken {
     /* Public variables of the token */
     string public standard = 'Token 0.1';
     string public name;
-    string public symbol;
+    string public symbol;echo "# pic" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/striker4412/pic.git
+git push -u origin master
+
     uint8 public decimals;
     uint256 public totalSupply;
 
